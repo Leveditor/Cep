@@ -51,7 +51,6 @@ export default function Input() {
               <p>Estado *</p>
               <input type="text" {...register("uf")} className="p-0 inputEstado w-28 pl-2 border-gray-400 rounded"/>
             </div>
-
             <div>
               <p>Número *</p>
               <input type="text" {...register("addressNumber")} className="p-0 inputNumero pl-2 border-gray-400 rounded"/>
