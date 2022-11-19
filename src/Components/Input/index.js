@@ -27,7 +27,7 @@ export default function Input() {
           <div className="md:grid grid-cols-2 gap-4">
             <div>
               <p>CEP *</p>
-              <input type="text" {...register("cep")} onBlur={checkCEP} className="w-inputs p-0 border-gray-400 rounded"/>
+              <input type="text" {...register("cep")} onBlur={checkCEP} className="w-inputs p-0 pl-2 border-gray-400 rounded"/>
             </div>
 
             <div>
